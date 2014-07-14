@@ -26,4 +26,5 @@ alias gls="gls --color"
 
 zstyle ':completion:*' list-colors 'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'
 
-RPROMPT='[%c]'
+PROMPT='[%F{magenta}%B%n%b%f@%F{blue}%U%m%u%f] '
+RPROMPT='[%F{green}%~%f]'
